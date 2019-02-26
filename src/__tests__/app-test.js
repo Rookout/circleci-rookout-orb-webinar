@@ -22,7 +22,7 @@ describe('Test the minus function', () => {
         expect(response.text).toBe("1-1=0");
     });
     test('7, x should be 500 Internal server error', async () => {
-        const response = await request(app).get('/minus').query({ first_number: "7", second_number: "x" });
+        const response = await request(app).get('/minus').query({ first_number: "7", seconds_number: "x" });
         expect(response.statusCode).toBe(500);
         expect(response.text).toBe("Internal server error");
     });    
