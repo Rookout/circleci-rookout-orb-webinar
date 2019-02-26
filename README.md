@@ -40,7 +40,10 @@ The rookout circle-ci orb allows you debug your own nodeJS scripts running in yo
               rookout_tags: "yourTag1;YourTag2"
     ```
     
-    The default tags value is: '$CIRCLE_PROJECT_REPONAME;$CIRCLE_JOB;circle-ci'
+    The default tags value is: 
+    ```
+    $CIRCLE_PROJECT_REPONAME;$CIRCLE_JOB;circle-ci
+    ```
 
 
 ## Further information :
