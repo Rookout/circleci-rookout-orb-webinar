@@ -17,7 +17,7 @@ describe('Test the plus function', () => {
 
 describe('Test the minus function', () => {
     test('1-1 should be equal 0', async () => {
-        const response = await request(app).get('/minus').query({ first_number: "1", second_number: "1" });
+        const response = await request(app).get('/minus').query({ first_number: "1", seconds_number: "1" });
         expect(response.statusCode).toBe(200);
         expect(response.text).toBe("1-1=0");
     });
