@@ -1,0 +1,17 @@
+jobs:
+  main_flow:
+    docker:
+      - image: circleci/node:10
+    working_directory: ~/circleci-rookout
+    steps:
+      - checkout:
+          path: ~/circleci-rookout
+      - run: "npm install"
+      - run: "node_modules/jest/bin/jest.js ."
+
+version: 2.1
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - main_flow
