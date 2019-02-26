@@ -1,4 +1,4 @@
-# Rookout <> Circleci Webinar 
+# Rookout + Circleci Webinar 
 
 ## Rookout:
 
@@ -18,7 +18,7 @@ The rookout circle-ci orb allows you debug your own nodeJS scripts running in yo
 
 ## Rookout without orb:
   1. Rookout docs - https://docs.rookout.com
-  2. The [math server example without orb][math-server-example-no-orb] (as shown on the webinar) 
+  2. The [math server example using sdk][math-server-example-no-orb] (as shown on the webinar) 
 
 
 
